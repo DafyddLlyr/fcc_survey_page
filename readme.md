@@ -1,4 +1,5 @@
-# freeCodeCamp - Survey Page
+# Isle of Skye Tourism Survey Page
+### freeCodeCamp - Responsive Web Design Projects
 
 A survey page built for freeCodeCamp's *"Responsive Web Design Certification"*. A simple project to build an understanding of HTML forms, web accessibility and responsive design.
 
