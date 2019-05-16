@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Source+Sans+Pro:400,700" rel="stylesheet">
+  <title>Skye Tourism Survey</title>
+</head>
+
+<body>
+  <h1 id="title">Isle of Skye Tourism Survey</h1>
+  <div id="main">
+    <p id="description">Here at the Skye Tourism Board we would love to hear your feedback on your latest trip to the Misty Isle!</p>
+    <form id="survey-form">
+      <label for="label" id="name-label">
+        <p class="question">Name</p>
+        <input type="text" id="name" placeholder="Name" required></input>
+      <br>
+      <br>
+      <label for="email-label" id="email-label">
+        <p class="question">Email</p>
+        <input type="email" id="email" placeholder="Email" required></input>
+      <br>
+      <br>
+      <label for="number-label" id="number-label">
+        <p class="question">Age</p>
+        <input type="number" id="number" min="0" max="120" placeholder="Age" required>
+        <br>
+        <br>
+        <p class="question">What was the reason for your visit?</p>
+        <select id="dropdown">
+          <option value="sightseeing">Sightseeing</option>
+          <option value="friends-family">Visting friends or family</option>
+          <option value="business">Business</option>
+          <option value="other">Other</option>
+        </select>
+        <br>
+        <br>
+        <p class="question">I intend to visit Skye again this summer: </p>
+        <div class="question_box">
+          <input type="radio" name="visit_again" value="yes" checked> Yes<br>
+          <input type="radio" name="visit_again" value="no"> No
+        </div>
+        <br>
+        <br>
+        <p class="question">I visited the following locations on my trip:</p>
+        <div class="question_box">
+        <input type="checkbox" name="location1" value="talisker"> Talisker Distillery, Carbost<br>
+        <input type="checkbox" name="location2" value="fairy"> The Fairy Pools, Glenbrittle<br>
+        <input type="checkbox" name="location3" value="portree"> Portree<br>
+        <input type="checkbox" name="location4" value="storr"> The Old Man of Storr<br>
+        <input type="checkbox" name="location5" value="none"> None of the above
+        </div>
+        <br>
+        <br>
+        <p class="question">Additional comments:</p>
+        <textarea name="additional-comments" placeholder="Ony other thoughts?" rows="5" cols="50"></textarea>
+        <br>
+        <br>
+        <input type="submit" id="submit"></input>
+    </form>
+    </div>
+  </body>
+<footer>
+  <p>Built by Dafydd Pearson, for <a href="#">freeCodeCamp</a></p>
+</footer>
+</html>

@@ -1,0 +1,69 @@
+body {
+  background: url("http://inspiredbymaps.com/wp-content/uploads/2016/07/Scotland-United-Kingdom-England-Isle-Of-Skye.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#main {
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+  border-radius: 10px;
+  width: 90vw;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  #main {
+    width: 50vw;
+  }
+}
+
+.question_box {
+  text-align: left;
+  display: inline-block;
+}
+
+.question {
+  font-weight: bold;
+}
+
+#description {
+  width: 80%;
+  display: inline-block;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Lobster", cursive;
+  color: white;
+  text-shadow: 3px 3px 3px #000000;
+  padding: 10vh;
+  font-size: 48px;
+}
+
+footer {
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+  display: inline-block;
+  line-height: 1px;
+}
+
+footer p {
+  font-size: 0.8rem;
+}
+
+#main,
+footer {
+  background-color: hsla(0, 100%, 100%, 0.85);
+}
+
+a {
+  color: #585858;
+}
+
+a:hover {
+  color: gray;
+}
